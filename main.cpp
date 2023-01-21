@@ -81,8 +81,6 @@ int main() {
 	}
 	else {
 		std::cout << "Ошибка открытия файла для записи 'out.txt'! Данные не будут записаны." << std::endl;
-		system("pause > nul");
-		return 0;
 	}
 	file.close();
 
